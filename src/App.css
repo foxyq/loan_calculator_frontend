@@ -1,0 +1,89 @@
+/*general */
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.inner-padding {
+  padding: 1%;
+}
+/* end general */
+
+/* layout */
+.App {
+  text-align: left;
+  color: #000a48;
+}
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+.form-part {
+  width: 60%;
+}
+.result-part {
+  width: 36%;
+  min-height: 350px;
+  background: #170a53;
+  color: #fff;
+}
+
+.wrap-row {
+  padding: 0 20px 30px;
+}
+.wrap-range {
+  width: 78%;
+}
+.wrap-input {
+  min-height: 40px;
+  width: 20%;
+  padding-left: 2%;
+}
+/* end layout */
+
+/* form elements */
+input {
+  padding: 5px;
+  font-size: 14px;
+}
+input[type="range"] {
+  width: 100%;
+  padding: 0;
+}
+.input-price {
+  width: 65px;
+}
+.input-months {
+  width: 30px;
+}
+button {
+  background: #2ab369;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+.input-help {
+  color: #a1a2a3;
+  font-size: small;
+}
+.result-part h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+.result-part h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
